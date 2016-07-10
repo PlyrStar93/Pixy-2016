@@ -20,5 +20,5 @@ From the back side of Pixy, the port looks like:
 ```
 On the serial output, both devices will have output if they detect something.
 
-Created: 2016-7-10
+Created: 2016-7-10  
 Last Edit: 2016-7-10
