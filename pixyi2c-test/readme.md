@@ -13,16 +13,20 @@ This program essentially comes from the Pixy I<sup>2</sup>C example, except that
 - USB cable (A-male to B-female)
 - PC
 
+### Configuration
+
+In PixyMon, set the address of the first Pixy to ```0x20```, and the second Pixy to ```0x60```. For both cameras, use I2C as communication mode.
+
 ### Connection
 
 The Arduino UNO connects to PC via USB. GND, +5V, A4, A5 extend to breadboard. The two Pixys directly connect their I2C port from the breadboard:
 
-Arduino | Pixy
--|-
-GND | GND (pin 10)
-+5V | +5V (pin 2)
-A4 | SDA (pin 9)
-A5 | SCL (pin 5)
+| Arduino | Pixy |
+| ------- | ---- |
+| GND | GND (pin 10) |
+| +5V | +5V (pin 2) |
+| A4 | SDA (pin 9) |
+| A5 | SCL (pin 5) |
 
 From the back side of Pixy, the port looks like:
 ```
@@ -33,9 +37,6 @@ From the back side of Pixy, the port looks like:
 9 10
 ```
 
-### Configuration
-
-In PixyMon, set the address of the first Pixy to ```0x20```, and the second Pixy to ```0x60```. For both cameras, use I2C as communication mode.
 
 ## Software
 
