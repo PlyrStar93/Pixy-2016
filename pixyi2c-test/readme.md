@@ -21,7 +21,7 @@ Set the address of the first Pixy to ```0x20```, and the second Pixy to ```0x60`
 
 ### Connection
 
-The Arduino UNO connects to PC via USB. GND, +5V, A4, A5 extend to breadboard. The two Pixys directly connect their I2C port from the breadboard:
+The Arduino UNO connects to PC via USB. GND, +5V, A4, A5 extend to breadboard. The two Pixys have their communication ports directly connected to the breadboard using I<sup>2</sup>C standard:
 
 | Arduino | Pixy |
 | ------- | ---- |
@@ -30,7 +30,7 @@ The Arduino UNO connects to PC via USB. GND, +5V, A4, A5 extend to breadboard. T
 | A4 | SDA (pin 9) |
 | A5 | SCL (pin 5) |
 
-From the back side of Pixy, the port looks like:
+From the back side of Pixy, the communication port pinouts are:
 ```
 1  2
 3  4
