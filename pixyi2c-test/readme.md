@@ -16,3 +16,5 @@ From the back side of Pixy, the port looks like:
 9 10
 
 On the serial output, both devices will have output if they detect something.
+
+2016-7-10
