@@ -42,9 +42,9 @@ From the back side of Pixy, the port looks like:
 
 ## Software
 
-The source code, ```pixyi2c-test-2pixys.ino```, is a quick modification of the I<sup>2</sup>C example provided in the Pixy Arduino library. 2 Pixy instances are initiated, the first one using address ```0x20``` and the second one using address ```0x60```.
+The source code, ```pixyi2c-test-2pixys.ino```, is a quick modification of the I<sup>2</sup>C example provided in the Pixy Arduino library. 2 Pixy instances are initiated, the first one using address ```0x20``` and the second one using address ```0x60```. This program needs to be compiled and uploaded to Arduino using the Arduino IDE.
 
-The Serial Monitor in the Arduino IDE is used for displaying outputs. Similar to what the example does, the two Pixys will both output their capture results once they detect something on their own. 
+The Serial Monitor in the Arduino IDE is used for displaying outputs. Launch the Serial Monitor and the program will run. Similar to what the example does, the two Pixys will both output their capture results once they detect something on their own. 
 
 ---
 
