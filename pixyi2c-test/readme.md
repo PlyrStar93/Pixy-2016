@@ -17,7 +17,7 @@ This is a quick experiment on I<sup>2</sup>C transmission for 2 Pixys using some
 
 We need to change some parameters of both cameras using PixyMon. 
 
-Set the address of the first Pixy to ```0x20```, and the second Pixy to ```0x60```. For both cameras, use I2C as communication mode.
+Set the address of the first Pixy to ```0x20```, and the second Pixy to ```0x60```. For both cameras, use I2C as communication mode and 19200 as baud rate.
 
 ### Connection
 
