@@ -1,6 +1,6 @@
-# Pixy I2C Test
+# Pixy I<sup>2</sup>C Test
 
-This program essentially comes from the Pixy I2C example, except that we use two Pixys with 1 single Arduino UNO.
+This program essentially comes from the Pixy I<sup>2</sup>C example, except that we use two Pixys with 1 single Arduino UNO.
 
 Hardware-wise, The Arduino UNO connects to PC via USB. GND, +5V, A4, A5 extend to breadboard. The two Pixys directly connect their I2C port from the breadboard:
 ```
@@ -20,4 +20,5 @@ From the back side of Pixy, the port looks like:
 ```
 On the serial output, both devices will have output if they detect something.
 
-2016-7-10
+Created: 2016-7-10
+Last Edit: 2016-7-10
