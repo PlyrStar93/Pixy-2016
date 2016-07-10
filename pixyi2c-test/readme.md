@@ -1,6 +1,6 @@
 # Pixy I<sup>2</sup>C Test
 
-This program essentially comes from the Pixy I<sup>2</sup>C example, except that we use two Pixys with 1 single Arduino UNO.
+This is a quick experiment on I<sup>2</sup>C transmission for 2 Pixys using some simple equipment. The program essentially comes from the Pixy I<sup>2</sup>C example, except that we use two Pixys with 1 single Arduino UNO.
 
 ## Hardware
 
@@ -15,7 +15,9 @@ This program essentially comes from the Pixy I<sup>2</sup>C example, except that
 
 ### Configuration
 
-In PixyMon, set the address of the first Pixy to ```0x20```, and the second Pixy to ```0x60```. For both cameras, use I2C as communication mode.
+We need to change some parameters of both cameras using PixyMon. 
+
+Set the address of the first Pixy to ```0x20```, and the second Pixy to ```0x60```. For both cameras, use I2C as communication mode.
 
 ### Connection
 
