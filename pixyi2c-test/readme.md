@@ -11,11 +11,11 @@ A5 - SCL (pin 5)
 
 From the back side of Pixy, the port looks like:
 
-1  2
-3  4
-5  6
-7  8
-9 10
+1  2  
+3  4  
+5  6  
+7  8  
+9 10  
 
 On the serial output, both devices will have output if they detect something.
 
